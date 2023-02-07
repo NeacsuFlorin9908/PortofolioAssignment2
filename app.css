@@ -125,10 +125,40 @@ main.container-main section.my-work div.projects-container div.project{
     
       
 }
-main.container-main section.my-work div.projects-container div.project div.project-image{
+main.container-main section.my-work div.projects-container div.project div.project-image1{
     width: 100%;
     height: 50%;
-    background-color: black;
+    background-image: url(./images/project1.jpg);
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image2{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/project2.jpg);
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image3{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/project3.jpg);
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image4{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/project4.jpg);
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image5{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/project5.jpg);
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image6{
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/project6.jpg);
       
 }
 main.container-main section.my-work div.projects-container div.project div.details{
