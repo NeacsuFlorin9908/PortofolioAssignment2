@@ -27,18 +27,14 @@ main.container-main section.header-container{
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-    background: linear-gradient(170deg, aqua 60%, white 60%);
-    
-    
+    background: linear-gradient(170deg, aqua 60%, white 60%);     
 }
-
 main.container-main div.header{
     width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
+    position: relative;   
 }
 main.container-main div.header div.profile{
     width: 25rem;
@@ -62,8 +58,8 @@ main.container-main div.header section.about-me{
     height: 10rem;
     background-color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     flex-direction: column;
     padding: 2rem;
     border-radius: 5px;
@@ -71,9 +67,17 @@ main.container-main div.header section.about-me{
     position: relative;
     z-index: 0;
 }
+main.container-main div.header section.about-me h1{
+    font-size: 45px;
+    text-align: left;
+    position: absolute;
+}
 main.container-main div.header section.about-me p{
     text-align: justify;
     font-size: 1rem;
+    position: absolute;
+    top:30%;
+    margin-right: 5%;
 }
 main.container-main div.header section.about-me div.links{
     width: 70rem;
@@ -165,8 +169,53 @@ main.container-main section.my-work div.projects-container div.project div.detai
 footer{
     background-color: aqua;
     width: 100%;
-    height: 15rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
 }
-footer img{
-    display: none;
+footer section{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer section div.contact-image{
+    width: 25rem;
+    height: 20rem;
+    background-image: url(./images/pexels-cottonbro-studio-3206149.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+footer section div.contact-me{
+    width: 60rem;
+    height: 20rem;
+}
+footer section div.contact-me div.contact div.phone{
+    display: flex;
+    align-items: center;
+}
+footer section div.contact-me div.contact div.phone i{
+    color: white;
+    font-size: 45px;
+}
+footer section div.contact-me div.contact div.email{
+    display: flex;
+    align-items: center;
+}
+footer section div.contact-me div.contact div.email i{
+   color: white;
+    font-size: 45px;
+}
+footer section div.contact-me h1{
+    color: white;
+    font-size: 45px;
+}
+footer section div.contact-me p{
+    color: white;
+    font-size: 30px;
+}
+footer section div.contact-me div.contact-links a i{
+    color: black;
+    font-size: 2rem;
 }
