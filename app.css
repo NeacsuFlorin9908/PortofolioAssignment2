@@ -1,31 +1,172 @@
+*{
+    font-size: 30px;
+    
+}
 body{
     margin: 0;
     border: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    
 }
 main.container-main{
-
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    overflow-x: hidden; 
 }
-main.container-main div.header div.profile{
-    width: 20rem;
-    height: 25rem;
+main.container-main section.header-container{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    background: linear-gradient(170deg, aqua 60%, white 60%);
+    
+    
+}
+
+main.container-main div.header{
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 }
-main.container-main div.header div.profile img{
-    width: 100%;
-    height: 100%;
+main.container-main div.header div.profile{
+    width: 25rem;
+    height: 15rem;
+    background-image: url(./images/pexels-cottonbro-studio-3206078.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    left: 2%;
 }
 main.container-main div.header div.profile h1{
+    position: absolute;
     bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
 main.container-main div.header section.about-me{
-    width: 20rem;
-    height: 25rem;
+    width: 90rem;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px gray;
+    position: relative;
+    z-index: 0;
 }
-main.container-main div.profile h1{
+main.container-main div.header section.about-me p{
+    text-align: justify;
+    font-size: 1rem;
+}
+main.container-main div.header section.about-me div.links{
+    width: 70rem;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 5%;
+    right: 0%;
+}
+main.container-main div.header section.about-me div.links a{
+    font-size: 3rem;
+    color: black;
+}
+main.container-main section.my-work{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 8%;
     
+      
+}
+main.container-main section.my-work h1{
+    width: 100%;
+    height: 1rem;
+      
+}
+main.container-main section.my-work div.projects-container{
+    width: 100%;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 1rem;
+    column-gap: 1.5%;
+
+      
+}
+main.container-main section.my-work div.projects-container div.project{
+    width: 100%;
+    height: 20rem;
+    box-shadow: 2px 2px 2px 2px gray;
+    
+      
+}
+main.container-main section.my-work div.projects-container div.project div.project-image{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+      
+}
+main.container-main section.my-work div.projects-container div.project div.details{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+}
+main.container-main section.my-work div.projects-container div.project div.details div.project-name-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 3rem;
+      
+}
+main.container-main section.my-work div.projects-container div.project div.details div.project-name-links h1{
+    height: 1rem;
+      
+}
+main.container-main section.my-work div.projects-container div.project div.details div.project-name-links div.project-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+main.container-main section.my-work div.projects-container div.project div.details div.project-name-links div.project-links a{
+    font-size: 0.8rem;
+    color: black;
+}
+main.container-main section.my-work div.projects-container div.project div.details p{
+    width: 90%;
+    font-size: 12px;
+    text-align: justify;
+}
+footer{
+    background-color: aqua;
+    width: 100%;
+    height: 15rem;
+}
+footer img{
+    display: none;
 }
